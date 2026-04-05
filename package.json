@@ -1,6 +1,6 @@
 {
-  "name": "svelte-i18n",
-  "version": "1.0.0",
+  "name": "@free-walk/svelte-i18n",
+  "version": "1.0.1",
   "type": "module",
   "description": "Lightweight i18n library for Svelte 5, inspired by vue-i18n",
   "keywords": [
