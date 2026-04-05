@@ -1,0 +1,49 @@
+{
+  "name": "svelte-i18n",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lightweight i18n library for Svelte 5, inspired by vue-i18n",
+  "keywords": [
+    "svelte",
+    "svelte5",
+    "i18n",
+    "internationalization",
+    "locale",
+    "translation"
+  ],
+  "license": "MIT",
+  "author": "free-walk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcodingnpc/svelte-i18n.git"
+  },
+  "svelte": "./src/index.ts",
+  "main": "./dist/svelte-i18n.cjs",
+  "module": "./dist/svelte-i18n.mjs",
+  "types": "./dist/types/index.ts",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.ts",
+      "import": "./dist/svelte-i18n.mjs",
+      "require": "./dist/svelte-i18n.cjs",
+      "default": "./dist/svelte-i18n.mjs"
+    },
+    "./dist/svelte-i18n.iife.js": "./dist/svelte-i18n.iife.js"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "README.zh-CN.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.7",
+    "svelte": "^5.55.1"
+  }
+}
